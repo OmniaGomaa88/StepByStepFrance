@@ -4,7 +4,7 @@
   <head>
     <meta charest="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/homeStyle.css">
   </head>
 
   <body>
@@ -46,8 +46,10 @@
           </div>
           <div class="étapes">
             <p>3 étapes</p>
-            <div class="progresse"></div>
-            <p>50% terminé</p>
+            <div class="progresse">
+               <span style="width:0" data-width="80%" ></span>
+            </div>
+            <p class="progText">80% terminé</p>
           </div>
         </div><!-- fin div le icon , le title de lobjectif et les étapes -->
 
@@ -58,8 +60,10 @@
           </div>
           <div class="étapes">
             <p>4 étapes</p>
-            <div class="progresse"></div>
-            <p>20% terminé</p>
+            <div class="progresse">
+              <span style="width:0" data-width="50%" ></span>
+            </div>
+            <p class="progText">50% terminé</p>
           </div>
         </div><!-- fin div le icon , le title de lobjectif et les étapes -->
 
@@ -70,8 +74,10 @@
           </div>
           <div class="étapes">
             <p>5 étapes</p>
-            <div class="progresse"></div>
-            <p>10% terminé</p>
+            <div class="progresse">
+               <span style="width:0" data-width="30%" ></span>
+            </div>
+            <p class="progText">30% terminé</p>
           </div>
         </div><!-- fin div le icon , le title de lobjectif et les étapes -->
       </div> <!-- fin div contaner de les trois objectifs-->
@@ -94,7 +100,15 @@
     </section>
     <!-- fin Section Comment ça marche ?-->
 
+    <footer class="FlexRow">
+      <div class="FlexRow">
+      <p>Mentions légales</p>
+      <p>Politique de confidentialité</p>
+      </div>
+      <img src="public\images\instagram.png" class="icon">
+    </footer>
 
+    <script src="public\js\home.js"></script>
   </body>
 
   </html>

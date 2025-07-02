@@ -84,10 +84,10 @@ span {
 
 /*style de section objectifs*/
 #objSection {
-    background-color: rgb(226, 204, 188);
+    background-color: #f8dfcc;
     padding: 20px;
-    height: 80vh;
-    margin-top: 10px;
+    height: 60vh;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 
@@ -101,7 +101,7 @@ span {
     margin-bottom: 20px;
     background-color: white;
     border-radius: 10px;
-    height: 50vh;
+    height: 40vh;
     min-width: 20vw;
     align-items: center;
     padding-left: 10px;
@@ -120,13 +120,34 @@ span {
 }
 
 .étapes{
-    margin-top: 50px;
+    margin-top: 20px;
     display: block;
     width: 100%;
 }
 .étapes p{
      font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.progresse{
+    position: relative;
+    width: 90%;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.progresse span{
+    position:absolute;
+    left: 0;
+    top: -10px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(54, 54, 238);
+    transition: width 0.3s linear;
+}
+.progText{
+    display:none;
+    transition: width 0.30s linear;
 }
 /*fin style section objectif*/
 /**************************************************************/
@@ -154,3 +175,16 @@ span {
 }
 
 /*  fin style section comment ca marche*/
+
+footer{
+    width: 100%;
+    justify-content: space-between;
+   
+    margin-top: 80px;
+}
+footer div p{
+    margin-right: 20px;
+}
+footer img{
+    margin-right: 20px;
+}

@@ -2,7 +2,7 @@
 // Démarrer la session
 session_start();
 // Récupérer la page depuis l'URL, ou "home" par défaut
-$page = $_GET['page'] ?? 'home';
+$page = $_GET['page'] ?? 'login';
 
 // Router vers la bonne vue
 if ($page === 'login') {

@@ -1,0 +1,61 @@
+@import url(homeStyle.css);
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    border: 1px solid black;
+    width: 30vw;
+    background-color: rgb(190, 190, 255);
+    margin-top: 5%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    height: 40vh;
+    width: 70%;
+    background-color: white;
+    padding-top: 10%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    color: #b8b7b7;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+input {
+    width: 80%;
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid #acabab;
+    border-radius: 5px;
+
+}
+
+p {
+    color: #9c9b9b;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
