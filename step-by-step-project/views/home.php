@@ -108,7 +108,7 @@
       <img src="public\images\instagram.png" class="icon">
     </footer>
 
-    <script src="public\js\home.js"></script>
+    <script src="public\js\script.js"></script>
   </body>
 
   </html>

@@ -6,7 +6,7 @@ body {
     align-items: center;
 }
 
-div {
+#containerLogin {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,11 @@ div {
     border-radius: 5px;
 }
 
-h1 {
+ #containerLogin h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-form {
+#formLogin {
     height: 40vh;
     width: 70%;
     background-color: white;
@@ -32,14 +32,14 @@ form {
     border-radius: 5px;
 }
 
-label {
+#formLogin label {
     color: #b8b7b7;
     font-size: 20px;
     font-weight: bold;
     margin-left: 5px;
 }
 
-input {
+#formLogin input {
     width: 80%;
     margin-left: 20px;
     padding: 5px;
@@ -48,14 +48,47 @@ input {
 
 }
 
-p {
+#formLogin p {
     color: #9c9b9b;
     font-size: 20px;
     text-align: center;
 }
 
-button {
+#formLogin button {
     margin-top: 20px;
     width: 50%;
     margin-left: 25%;
+}
+/*enregestre from style*/
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin-left: 30%;
+  padding-top: 5px;
+  padding-left: 30px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: relative;
+  border: 2px solid black;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
 }
