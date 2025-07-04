@@ -33,17 +33,18 @@
     <span class="close" onclick="closeModal()">&times;</span>
     
     <h2>Créer un compte</h2>
-    <form action="enregstre.php" method="POST">
-      <label for="name">Votre prenome</label><br>
-      <input type="text" name="name" required><br><br>
-
+    <form action="./models/register.php" method="POST">
+     
       <label for="email">Email</label><br>
       <input type="email" name="email" required><br><br>
 
       <label for="password">Mot de passe</label><br>
       <input type="password" name="password" required><br><br>
 
-      <label for="gender">Genre</label><br>
+       <label for="name">Votre prenome</label><br>
+      <input type="text" name="name" required><br><br>
+
+      <label for="gender">Gender</label><br>
       <select name="gender" required>
         <option value="">-- Sélectionnez --</option>
         <option value="Homme">Homme</option>
@@ -54,18 +55,6 @@
       <label for="age">Âge</label><br>
       <input type="number" name="age" min="1" max="100"><br><br>
 
-      <label for="nationality">Nationalité</label><br>
-      <input type="text" name="nationality"><br><br>
-
-      <label for="marital_status">Situation familiale</label><br>
-      <select name="marital_status">
-        <option value="">-- Sélectionnez --</option>
-        <option value="Célibataire">Célibataire</option>
-        <option value="Marié(e)">Marié(e)</option>
-        <option value="Divorcé(e)">Divorcé(e)</option>
-        <option value="Veuf(ve)">Veuf(ve)</option>
-      </select><br><br>
-
       <label for="residence_type">Type de résidence</label><br>
       <select name="residence_type" required>
         <option value="">-- Sélectionnez --</option>
@@ -73,9 +62,6 @@
         <option value="Visa de travail">Visa de travail</option>
         <option value="Réfugié">Réfugié</option>
       </select><br><br>
-
-      <label for="profession_field">Domaine professionnel</label><br>
-      <input type="text" name="profession_field"><br><br>
 
       <button type="submit">Envoyer</button>
     </form>
